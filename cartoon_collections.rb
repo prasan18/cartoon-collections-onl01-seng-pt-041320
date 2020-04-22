@@ -7,10 +7,5 @@ def roll_call_dwarves(names)
         puts  "The line is currently: " << new_array.join(" ")
     end 
 
-def summon_captain_planet(veggies)
-  veggies = %w[carrot cucumber pepper]
-   veggies.class  { |veggies, i| new_array << "#{i + 1}. #{veggies}"}
-        puts  "The line is currently: " << veggies.length(" ") 
-  end
-end
+
 
